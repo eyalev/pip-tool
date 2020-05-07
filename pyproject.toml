@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "pip-tool"
+name = "piptool"
 version = "0.1.1"
 description = ""
 authors = ["Eyal Levin <eyalev@gmail.com>"]
 
 [tool.poetry.scripts]
-pip-tool = "pip_tool.cli:cli"
+piptool = "piptool.cli:cli"
 
 [tool.poetry.dependencies]
 python = "^3.6"
